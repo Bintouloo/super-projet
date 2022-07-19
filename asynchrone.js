@@ -15,7 +15,7 @@ rl.question("quel est ton prénom ?", reponse => {
     // le callback hell
     console.log("ton prénom est" + reponse);
     // aprés avoir saisi la réponse de la 1ére question, on pose une autre question différente vue que c'est interdit de poser la meme question 
-    rl.question("quel est ton nom?", reponse => {
+    rl.question("quel est ton nom de famille?", reponse => {
         console.log("ton nom est" + reponse);
         // une fois repondr aux questions , on va cloturer le texte 
         rl.question("quel est ton age?", reponse => {
